@@ -1,0 +1,620 @@
+
+
+/* Global Styles    /* always add box model to your projects */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #F0FFF0;
+
+
+}
+   
+header {
+background-image: url(../images/jessy-smith-zFOm6KzA-7g-unsplash.jpg);
+background-size: cover;
+width:100vw;
+height:57vw;
+color: black;
+padding: 10px;
+font-weight: bold;
+text-align: center;
+  
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+
+header h1 {
+   font-size: 40px;
+   text-align: center;
+   color: white;
+   padding-top: 24%;
+
+}
+
+header h2 {
+font-size: 40px;
+   text-align: center;
+   color: white;
+}
+
+
+
+
+/* Description html header */
+
+
+.description {  
+    padding-top: 28%;
+}
+
+.description a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+/* personal projects html header */
+
+.personal a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.personal {
+    padding-top: 29%;
+    color: white;
+   
+}
+
+/* About Me Profile */
+
+.about {
+    max-width: 100%;
+    background-color: 
+     
+}
+
+.about img {
+    max-width: 100%;
+    margin-left: 37%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.about h1 {
+    padding-top: 30px;
+    text-align: center;
+  
+}
+
+.about p {
+    max-width: 760px;
+    margin: 0 auto;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 50px;
+  
+}
+
+/* Personal Projects/Portfolio */
+
+ h1 {
+    text-align: center;
+}
+
+.content {
+padding-bottom: 50px;
+}
+
+
+.content p {
+    padding: 40px;
+    text-align: center;
+}
+
+
+
+
+.portfolio {  
+    background-color: #000000;
+    /* can use max- width if need */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    color: black;
+    padding: 50px;
+    text-align: center;
+}
+
+
+
+.portfolio a {
+    color: #F5F5F5;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+
+
+.portfolio__item {
+    /*background: var(--clr-accent);  can change color*/ 
+    overflow: hidden;
+}
+
+.portfolio__img {
+    transition: 
+        transform 750ms cubic-bezier(.5, 0, .5, 1),
+        opacity 250ms linear;
+}
+
+.portfolio__item:focus {
+    position: relative;
+    z-index: 2;
+}
+
+
+
+.portfolio__img:hover,
+.portfolio__item:focus .portfolio__img {
+    transform: scale(1.2);
+    opacity: .5;
+}
+
+
+
+
+
+/* Education */
+
+
+
+/* Contact Info*/
+/*------------------------------------------- */
+
+
+footer {
+    text-align: center;
+    background-color:#F0FFF0;
+    padding: 5px;
+}
+
+.footer a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+footer h1 {
+    font-size: 40px;
+}
+
+.social-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 2em 0 0;
+    padding: 0;
+}
+
+
+
+
+
+/* Responsive
+/*------------------------------------------- */
+
+@media (max-width: 360px) {    /* main page*/
+    header {
+        width:    676px; 
+        height:   386px; 
+    }
+
+    header h1 {
+        font-size: 21px;
+        margin-left: 10px;
+    }
+    header h2 {
+        font-size: 21px;
+        margin-left: 10px;
+    }
+     .profile h1 {
+        margin-left: 318px;
+        font-size: 27px;
+    }
+    .profile img {
+        margin-left: 204px;
+    }
+    .profile p {
+        width:386px;
+        margin-left: 190px;  
+    }
+    .projects {
+        width: 145%;
+    }
+    .footer h1 {
+        font-size: 27px;
+        margin-left: 284px;
+    }
+    .footer a {
+        font-size: 27px;
+        margin-left: 130px;
+        
+    }
+    .social-list  {
+        margin-left: 200px;
+    }
+    .personal a {                   /* projects page */
+        font-size: 24px;
+        margin-left: 24px;
+    }
+    .portfolio {            
+        width: 166%;  116%;
+    }
+    .description a {                 /* description page */
+        font-size: 32px;
+        margin-left: 24px;
+    }
+    .content p {
+        width:412px;
+        margin-left: 21px;
+    }
+       
+}
+
+/*------------------------------------------*/
+
+
+
+
+/* Portrait tablet and small desktops 
+@media (max-width: 940px) {
+}
+
+/* Landscape phone to portrait tablet 
+@media (max-width: 768px) {
+}
+
+/* Landscape phones and down 
+@media (max-width: 480px) {
+}**/
+
+
+/* Landscape phones and down 
+@media (max-width: 414px) {
+}**/
+
+
+/* Landscape phones and down 
+@media (max-width: 375px) {
+}**/
+
+/* Landscape phones and down 
+@media (max-width: 360px) {
+}**/
+
+
+/*@media (max-width: 360px) {    /* samsung S5/ Moto G4 
+    .content-wrapper h1 {
+        margin-left: 5px; 100px;
+    }
+    .content-wrapper h2 {
+        margin-left: 10px; 80px;
+    }
+    .content-wrapper img {
+        /*margin-left: 50px;
+    }
+    .profile h1 {
+        margin-left: 195px;  160px; 
+    }
+    .about p {
+        margin-left: 76px;  82px; 24px;
+        font-size: 14px;
+        width:  415px; 424px;
+    }
+    .about img {
+        margin-left:108px;    80px;
+    }
+    .description {
+        margin-left: 5px; 108px;
+    }
+    .description a {
+        font-size: 24px;
+    }
+    .content p {
+        margin-left: 54px;
+        font-size: 15px;
+        width: 386px;
+    }
+    .portfolio {
+        width: 129%;    101%;
+    }
+    .personal {
+        margin-left: 0px;    115px; 
+    }
+    .personal a {
+        font-size: 24px;
+    }
+    .footer h1 {
+        margin-left: 202px;  107px; 
+        font-size: 24px;  
+    }
+    .footer a {
+        font-size: 27px;
+        margin-left: 52px;   3px;
+    }
+    .social-list {
+        margin-left: 90px;
+    }
+    header {
+        width: 0px;
+    }
+}
+
+
+@media (max-width: 375px) {   /* ipone X, 6,7,8
+  
+    .profile h1 {
+        margin-left: 184px; 70px;
+    }
+    .portfolio {
+        width:  114%; 132%;
+    }
+    
+    .about p {
+        margin-left: 100px; 111px;     87px; 130px;
+        font-size: 14px;
+        width: 420px;  424px;
+    }
+    .about img {
+        margin-right: 125px; 90px;
+    }
+    .description {
+        /*margin-left: 108px;
+    }
+
+    .description a {
+        font-size: 25px;
+    }
+    .content p {
+        margin-left: 74px; 20px;
+        font-size: 15px;
+        width: 386px;
+    }
+  
+
+    .personal {
+        /*margin-left: 36px; 90px; 
+    }
+
+    .personal a {
+        font-size:25px;
+    }
+  
+    .footer h1 {
+        margin-left: 213px;
+        font-size: 25px;
+    }
+    .footer a {
+        /*font-size: 27px;
+        margin-left: 60px; 8px;
+    }
+    .social-list {
+        margin-left: 85px;
+    }
+    header {
+        width:    509px;  580px; 543px;
+        height:294px;
+    }
+
+    header h1 {
+        font-size: 10px;
+        margin-right:0px;
+
+    }
+    header h2 {
+        font-size: 10px;
+        margin-right: 10px;
+    }
+}
+
+
+
+@media (max-width: 414px) {   /* ipone 6/7/8 plus
+    .content-wrapper h1 {
+        /*margin-left: 165px;  
+    }
+    .content-wrapper h2 {
+        /*margin-left: 160px; 
+    }
+    header {
+        width: 539px; 509px; 473px;
+        height: 304px; 287px; 258px;
+    }
+
+
+    .content-wrapper img {
+        margin-left: 110px; 
+    }
+
+
+    .profile h1 {
+        margin-left: 155px; 55px; 
+    }
+  
+
+    .portfolio {
+        width:  122%; 114%; 125%; 
+    }
+    .about img {
+        margin-left: 96px; 66px; 60px;
+    }
+
+    .about p {
+       margin-left: 60px; 30px; 118px;
+        font-size: 14px;
+        width: 424px;
+    }
+    .content p {
+        margin-left: 55px; 30px; 70px; 
+        font-size: 15px;
+        width: 386px;
+        text-align: left;
+    }
+    .personal {
+        margin-left: 0px; 
+    }
+
+    .personal a {
+        font-size: 21px;
+    }
+    .description {
+        margin-left: 0px; 142px;
+    }
+    .description a {
+        font-size: 30px;
+    }
+
+    .footer h1 {
+        margin-left: 177px; 80px; 138px;
+        font-size: 30px;   35px;
+    }
+    .footer a {
+        font-size: 32px; 29px;
+        margin-left: 23px; 4px; 18px; 
+    }
+    .social-list {
+        margin-left: 119px; 55px; 172px;  
+    }
+}
+
+@media (max-width: 480px) {
+        header {
+            width: 104%;
+        }
+        .about img {
+            margin-left: 82px;
+        }
+        .about p {
+            margin-left: 50px; 30px; 118px;
+            font-size: 14px;
+            width: 424px; 
+        }
+        .portfolio {
+            width: 87%;
+        }
+        .footer h1 {
+            margin-left: 50px;
+        }
+        .footer a {
+            margin-left: 5px;
+            font-size: 30px;
+        }
+        .social-list {
+            margin-left: 10px;
+        }
+        .personal a {
+            font-size: 23px;
+        }
+        .description a {
+            font-size: 28px;
+        }
+        .content p {
+            margin-left: 8px;
+            width: 415px;
+        }
+}
+
+
+
+
+
+
+   @media (max-width: 768px) {  
+            .about p {
+                /*font-size: 13px;
+                width: 86%;
+            }
+            header h1 {
+                font-size: 20px;
+            }
+            header h2 {
+                font-size: 20px;
+            }
+            .about img {
+               /* margin-left: 215px;
+            }
+            .personal a {
+                font-size: 36px;
+            }
+            .portfolio {
+                width: 90%;
+            }
+              header {
+                width: 101%;
+            }
+   }                               
+
+@media (max-width: 940px) {
+    .about img {
+        margin-left: 312px;
+    }
+    .portfolio {
+        width: 92%;
+    }
+    .social-list  {
+        margin-right: 10px;
+    }
+    header {
+        width: 101%;
+    }
+    .profile h1 {
+        margin-left: 10px;
+    }
+}
+
+
+/*------------------------------------------------------------------*/
+/* a readME file on GitHub examples what your projects/application does, how to install anything to get your application to run, the technologies used in the application, colaborators if any, liscense is it publicly available to use */
+/*Photo by Raphael Schaller on Unsplash sneaker image
+
+<a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, 
+&quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:i
+nline-block;border-radius:3px" href="https://unsplash.com/@raphaelphotoch?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" 
+target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Raphael Schaller"><span style="display:inline-block;
+padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32">
+<title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Raphael Schaller</span></a>
+
+
+Photo by Berkay Gumustekin on Unsplash toronto skyline
+
+<a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, 
+Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" 
+href="https://unsplash.com/@berkaygumustekin?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do 
+whatever you want high-resolution photos from Berkay Gumustekin"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" 
+style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z">
+</path></svg></span><span style="display:inline-block;padding:2px 3px">Berkay Gumustekin</span></a>
+
+
+Photo by Jessy Smith on Unsplash
+
+1920 x 1108
+
+
+
+
+

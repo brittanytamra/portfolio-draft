@@ -127,7 +127,6 @@ padding-bottom: 50px;
 
 
 
-
 .portfolio {  
     background-color: #000000;
     /* can use max- width if need */
@@ -137,7 +136,6 @@ padding-bottom: 50px;
     padding: 50px;
     text-align: center;
 }
-
 
 
 .portfolio a {
@@ -165,8 +163,6 @@ padding-bottom: 50px;
     position: relative;
     z-index: 2;
 }
-
-
 
 .portfolio__img:hover,
 .portfolio__item:focus .portfolio__img {
@@ -371,6 +367,7 @@ footer h1 {
     }
     #info .content p {
         width: 413px;
+        line-height: 2.0; 
     }
     #info .portfolio {
         width: 84%;
@@ -460,6 +457,7 @@ footer h1 {
     #info .content p {
         width: 413px;
         margin-left: 5px;
+        line-height: 2.0; 
     }
     #info .portfolio {
         width: 96%;
@@ -546,6 +544,7 @@ footer h1 {
     #info .content p {
         width:366px;
         margin-left: 15px; 
+        line-height: 2.0; 
     }
     #info .portfolio {
         width: 106%;
@@ -611,8 +610,6 @@ footer h1 {
         margin-left: 144%;
     }
 
-
-
     #projects header {                        
         width: 188%;  
         height: 384px;
@@ -651,6 +648,7 @@ footer h1 {
     #info .content p {
         width:412px;
         margin-left: 10px;
+        line-height: 2.0; 
     }
     #info .portfolio {
         width: 115%;

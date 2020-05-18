@@ -86,20 +86,20 @@ font-size: 40px;
      
 }
 
-.about img {
+.profile img {
     max-width: 100%;
     margin-left: 37%;
     padding-top: 30px;
     padding-bottom: 50px;
 }
 
-.about h1 {
+.profile h1 {
     padding-top: 30px;
     text-align: center;
   
 }
 
-.about p {
+.profile p {
     max-width: 760px;
     margin: 0 auto;
     color: black;
@@ -308,284 +308,426 @@ footer h1 {
 }**/
 
 
-/*@media (max-width: 360px) {    /* samsung S5/ Moto G4 
-    .content-wrapper h1 {
-        margin-left: 5px; 100px;
-    }
-    .content-wrapper h2 {
-        margin-left: 10px; 80px;
-    }
-    .content-wrapper img {
-        /*margin-left: 50px;
-    }
-    .profile h1 {
-        margin-left: 195px;  160px; 
-    }
-    .about p {
-        margin-left: 76px;  82px; 24px;
-        font-size: 14px;
-        width:  415px; 424px;
-    }
-    .about img {
-        margin-left:108px;    80px;
-    }
-    .description {
-        margin-left: 5px; 108px;
-    }
-    .description a {
-        font-size: 24px;
-    }
-    .content p {
-        margin-left: 54px;
-        font-size: 15px;
-        width: 386px;
-    }
-    .portfolio {
-        width: 129%;    101%;
-    }
-    .personal {
-        margin-left: 0px;    115px; 
-    }
-    .personal a {
-        font-size: 24px;
-    }
-    .footer h1 {
-        margin-left: 202px;  107px; 
-        font-size: 24px;  
-    }
-    .footer a {
-        font-size: 27px;
-        margin-left: 52px;   3px;
-    }
-    .social-list {
-        margin-left: 90px;
-    }
-    header {
-        width: 0px;
-    }
-}
-
-
-@media (max-width: 375px) {   /* ipone X, 6,7,8
-  
-    .profile h1 {
-        margin-left: 184px; 70px;
-    }
-    .portfolio {
-        width:  114%; 132%;
-    }
-    
-    .about p {
-        margin-left: 100px; 111px;     87px; 130px;
-        font-size: 14px;
-        width: 420px;  424px;
-    }
-    .about img {
-        margin-right: 125px; 90px;
-    }
-    .description {
-        /*margin-left: 108px;
-    }
-
-    .description a {
-        font-size: 25px;
-    }
-    .content p {
-        margin-left: 74px; 20px;
-        font-size: 15px;
-        width: 386px;
-    }
-  
-
-    .personal {
-        /*margin-left: 36px; 90px; 
-    }
-
-    .personal a {
-        font-size:25px;
-    }
-  
-    .footer h1 {
-        margin-left: 213px;
-        font-size: 25px;
-    }
-    .footer a {
-        /*font-size: 27px;
-        margin-left: 60px; 8px;
-    }
-    .social-list {
-        margin-left: 85px;
-    }
-    header {
-        width:    509px;  580px; 543px;
-        height:294px;
-    }
-
-    header h1 {
-        font-size: 10px;
-        margin-right:0px;
-
-    }
-    header h2 {
-        font-size: 10px;
-        margin-right: 10px;
+/******************** Responsive*********************************/
+@media (max-width: 1024px) {
+    #index .profile img {
+        margin-left:340px;
     }
 }
 
 
 
-@media (max-width: 414px) {   /* ipone 6/7/8 plus
-    .content-wrapper h1 {
-        /*margin-left: 165px;  
-    }
-    .content-wrapper h2 {
-        /*margin-left: 160px; 
-    }
-    header {
-        width: 539px; 509px; 473px;
-        height: 304px; 287px; 258px;
-    }
-
-
-    .content-wrapper img {
-        margin-left: 110px; 
-    }
-
-
-    .profile h1 {
-        margin-left: 155px; 55px; 
-    }
-  
-
-    .portfolio {
-        width:  122%; 114%; 125%; 
-    }
-    .about img {
-        margin-left: 96px; 66px; 60px;
-    }
-
-    .about p {
-       margin-left: 60px; 30px; 118px;
-        font-size: 14px;
-        width: 424px;
-    }
-    .content p {
-        margin-left: 55px; 30px; 70px; 
-        font-size: 15px;
-        width: 386px;
-        text-align: left;
-    }
-    .personal {
-        margin-left: 0px; 
-    }
-
-    .personal a {
-        font-size: 21px;
-    }
-    .description {
-        margin-left: 0px; 142px;
-    }
-    .description a {
-        font-size: 30px;
-    }
-
-    .footer h1 {
-        margin-left: 177px; 80px; 138px;
-        font-size: 30px;   35px;
-    }
-    .footer a {
-        font-size: 32px; 29px;
-        margin-left: 23px; 4px; 18px; 
-    }
-    .social-list {
-        margin-left: 119px; 55px; 172px;  
-    }
-}
-
-@media (max-width: 480px) {
-        header {
-            width: 104%;
-        }
-        .about img {
-            margin-left: 82px;
-        }
-        .about p {
-            margin-left: 50px; 30px; 118px;
-            font-size: 14px;
-            width: 424px; 
-        }
-        .portfolio {
-            width: 87%;
-        }
-        .footer h1 {
-            margin-left: 50px;
-        }
-        .footer a {
-            margin-left: 5px;
-            font-size: 30px;
-        }
-        .social-list {
-            margin-left: 10px;
-        }
-        .personal a {
-            font-size: 23px;
-        }
-        .description a {
-            font-size: 28px;
-        }
-        .content p {
-            margin-left: 8px;
-            width: 415px;
-        }
-}
 
 
 
 
-
-
-   @media (max-width: 768px) {  
-            .about p {
-                /*font-size: 13px;
-                width: 86%;
-            }
-            header h1 {
-                font-size: 20px;
-            }
-            header h2 {
-                font-size: 20px;
-            }
-            .about img {
-               /* margin-left: 215px;
-            }
-            .personal a {
-                font-size: 36px;
-            }
-            .portfolio {
-                width: 90%;
-            }
-              header {
-                width: 101%;
-            }
-   }                               
-
+/*****************************************************/
 @media (max-width: 940px) {
-    .about img {
-        margin-left: 312px;
+    #index .profile img {
+        margin-left: 306px;
     }
-    .portfolio {
+    #index .portfolio {
         width: 92%;
     }
-    .social-list  {
-        margin-right: 10px;
+    #projects .portfolio {
+        width: 92%;
     }
-    header {
-        width: 101%;
-    }
-    .profile h1 {
-        margin-left: 10px;
+    #info .portfolio {
+        width: 92%;
     }
 }
+
+
+
+/*****************************************************/
+
+@media (max-width: 768px) {
+    #index header h1 {
+        font-size: 30px;
+    }
+    #index header h2{
+        font-size: 30px;
+
+    }
+    #index .profile img {
+        margin-left: 215px;
+
+    }
+    #index .profile p {
+        width: 600px;
+    }
+    #index .portfolio {
+        width: 90%;
+    }
+    #index footer h1 {
+        margin-left: 10px;
+    }
+    #projects .personal a {
+        font-size: 35px;
+    }
+    #projects .portfolio {
+        width: 90%;
+    }
+    #projects footer h1 {
+        margin-left: 20px;
+    }
+    #info footer h1 {
+        margin-left: 20px;
+    }
+    #info .portfolio  {
+        width: 90%;
+    }
+
+
+}
+
+/********************************************/
+@media (max-width: 480px) {
+    #index header {
+        width: 107%;
+        height: 287px;
+    }
+    #index header h1 {
+        font-size: 20px;
+        margin-left: 0px;
+    }
+    #index header h2 {
+        font-size: 20px;
+        margin-left: 0px;
+
+    }
+    #index .profile h1 {
+        margin-left: 52px;
+    }
+    #index .profile img {
+        margin-left: 104px;
+    }
+    #index .profile p {
+        width: 400px;
+        margin-left: 90px;
+    }
+    #projects .personal a {
+        font-size: 23px;
+        margin-left: 8px;
+    }
+    #projects .portfolio {
+        width: 83%;
+    }
+    #projects footer h1 {
+        margin-left: 20px;
+    }
+    #projects .footer a {
+        margin-left: 0px;
+        font-size: 30px;
+    }
+    #projects .social-list {
+        margin-left: 0px;
+    }
+    #info .description a {
+        font-size: 33px;
+        margin-left: 6px;
+    }
+    #info .content p {
+        width: 413px;
+    }
+    #info .portfolio {
+        width: 84%;
+    }
+    #info footer h1 {
+        margin-left: 15px;
+    }
+    #info .footer a {
+        font-size: 30px;
+        margin-left: 0px;
+    }
+    #info .social-list {
+        margin-left: 0px;
+    }
+}
+
+
+
+
+
+
+
+/* ------------------------------------------*/
+@media (max-width: 414px) {
+    #index header {
+        width: 114%;
+        height: 265px;
+    }
+    #index header h1 {
+        font-size: 20px;
+    }
+    #index header h2 {
+        font-size: 20px;
+    }
+    #index .profile h1 {
+        margin-left: 75px;
+    }
+    #index .profile img {
+        margin-left: 80px;
+    }
+    #index .profile p {
+        margin-left: 62px;
+        width: 400px;
+    }
+    #index .portfolio {
+        width: 95%;
+    }
+    #index footer h1 {
+        font-size: 38px;
+        margin-left: 80px;
+    }
+    #index .footer a {
+        margin-left: 6px;
+        font-size: 29px
+    }
+    #index .social-list {
+        margin-left: 55px;
+    }
+
+    #projects header {
+        width: 116%;
+        height: 269px;
+    }
+    #projects .personal a {
+        font-size: 21px;
+    }
+    #projects .portfolio {
+        width: 97%;
+    }
+    #projects .footer h1 {
+        font-size: 36px;
+        margin-left: 100px;
+    }
+    #projects .footer a {
+        margin-left: 2px;
+    }
+    #projects .social-list {
+        margin-left: 96px;
+    }
+    #info header {
+        width: 115%;
+        height: 266px;
+    }
+    #info .description a {
+        font-size: 28px;
+    }
+    #info .content p {
+        width: 413px;
+        margin-left: 5px;
+    }
+    #info .portfolio {
+        width: 96%;
+    }
+    #info footer h1 {
+        font-size: 38px;
+        margin-left: 100px;   50px;
+    }
+    #info .social-list {
+        margin-left: 86px;
+    }
+
+    
+}
+
+
+/*------------------------------------------- */
+
+
+
+@media (max-width: 375px) {
+    #index header {
+        width: 125%;  
+        height: 256px;
+    }
+    #index header h1 {
+        font-size: 19px;
+    }
+    #index header h2 {
+        font-size: 19px;
+    }
+    #index .profile h1 {
+        margin-left: 110px;
+    }
+    #index .profile img {
+        margin-left: 74px;
+    }
+    #index .profile p {
+        width:410px;
+        margin-left: 53px;  
+    }
+    #index .portfolio {
+        width: 104%;
+    }
+    #index footer h1 {
+        font-size: 36px;
+        margin-left: 99px;
+    }
+    #index .footer a {
+        margin-left: 6px;
+    }
+    #index .social-list {
+        margin-left: 85px;
+    }
+    #projects header {
+        width: 127%;  
+        height: 267px;
+    }
+    #projects .personal a {
+        font-size: 21px;
+        margin-left: 0px;
+    }
+    #projects .portfolio {
+        width: 106%;
+    }
+    #projects footer h1 {
+        font-size: 38px;
+        margin-left: 100px;
+    }
+    #projects .footer a {
+        margin-left: 0px;
+    }
+    #projects .social-list {
+        margin-left: 93px;
+    }
+    #info header {
+        width: 127%;
+        height: 267px;
+    }
+   
+    #info .description a {
+        font-size: 29px;
+    }
+    #info .content p {
+        width:366px;
+        margin-left: 15px; 
+    }
+    #info .portfolio {
+        width: 106%;
+    }
+    #info footer h1 {
+        font-size: 38px;
+        margin-left: 95px;
+    }
+    #info .footer a {
+        margin-left: 0px;
+    }
+    #info .social-list {
+        margin-left: 90px;
+    }
+}
+
+
+/*--------------------------------------*/
+
+
+@media (max-width: 360px) {    
+    #index header {
+        width: 301%;  
+        height: 616px;
+    }
+
+    #index header h1 {
+        font-size: 37px;
+        margin-left: 10px;
+    }
+    #index header h2 {
+        font-size: 39px;
+        margin-left: 10px;
+    }
+     #index .profile h1 {
+       font-size: 40px;
+       margin-left: 478px;
+    }
+    #index .profile img {
+        margin-left: 365px;
+        width: 100%;
+    }
+    #index .profile p {
+        width:496px;
+        margin-left: 320px;  
+    }
+    #index .projects {
+        width: 268%;
+    }
+    #index .portfolio a {
+        margin-right: 35px;
+    }
+    #index footer h1 {
+        font-size: 40px;
+        margin-left: 454px;
+    }
+    #index .footer a {
+        font-size: 40px;
+        margin-left: 64%;
+        
+    }
+    #index .social-list {
+        margin-left: 144%;
+    }
+
+
+
+    #projects header {                        
+        width: 188%;  
+        height: 384px;
+    }
+    #projects .personal a {                   
+        font-size: 32px;
+        margin-left: 3px;
+    }
+    
+    #projects .portfolio  {            
+        width: 165%;  
+    }
+    #projects .footer h1 {
+        font-size: 40px;
+        margin-left: 260px;
+    }
+    #projects .footer a {
+        font-size: 40px;
+        margin-left: 5%;
+    }
+    #projects .social-list {
+        margin-left: 325px;
+    }
+
+
+    #info header {
+        width: 137%;
+        height: 277px;
+    }
+
+    #info .description a {                  
+        font-size: 31px;
+        margin-left: 0px;
+    }
+
+    #info .content p {
+        width:412px;
+        margin-left: 10px;
+    }
+    #info .portfolio {
+        width: 115%;
+    }
+    #info .footer h1 {
+        font-size: 38px;
+        margin-left: 125px;
+    }
+    #info .footer a {
+        font-size: 30px;
+        margin-left: 8px;
+    }
+    #info .social-list {
+        margin-left: 110px;
+    }
+       
+}
+
+
 
 
 /*------------------------------------------------------------------*/
@@ -612,7 +754,6 @@ style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;f
 
 Photo by Jessy Smith on Unsplash
 
-1920 x 1108
 
 
 

@@ -218,64 +218,6 @@ footer h1 {
 /* Responsive
 /*------------------------------------------- */
 
-@media (max-width: 360px) {    /* main page*/
-    header {
-        width:    676px; 
-        height:   386px; 
-    }
-
-    header h1 {
-        font-size: 21px;
-        margin-left: 10px;
-    }
-    header h2 {
-        font-size: 21px;
-        margin-left: 10px;
-    }
-     .profile h1 {
-        margin-left: 318px;
-        font-size: 27px;
-    }
-    .profile img {
-        margin-left: 204px;
-    }
-    .profile p {
-        width:386px;
-        margin-left: 190px;  
-    }
-    .projects {
-        width: 145%;
-    }
-    .footer h1 {
-        font-size: 27px;
-        margin-left: 284px;
-    }
-    .footer a {
-        font-size: 27px;
-        margin-left: 130px;
-        
-    }
-    .social-list  {
-        margin-left: 200px;
-    }
-    .personal a {                   /* projects page */
-        font-size: 24px;
-        margin-left: 24px;
-    }
-    .portfolio {            
-        width: 166%;  116%;
-    }
-    .description a {                 /* description page */
-        font-size: 32px;
-        margin-left: 24px;
-    }
-    .content p {
-        width:412px;
-        margin-left: 21px;
-    }
-       
-}
-
 /*------------------------------------------*/
 
 

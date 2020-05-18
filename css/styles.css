@@ -45,14 +45,15 @@ font-size: 40px;
    color: white;
 }
 
-
+.content-wrapper {
+    padding-top: 3%;
 
 
 /* Description html header */
 
 
 .description {  
-    padding-top: 28%;
+    padding-top: 29%;
 }
 
 .description a {

@@ -32,17 +32,19 @@ img {
 
 
 header h1 {
-   font-size: 40px;
+   font-size: 36px;
    text-align: center;
    color: white;
    padding-top: 24%;
+    margin-left: 15px;
 
 }
 
 header h2 {
-font-size: 40px;
+font-size: 36px;
    text-align: center;
    color: white;
+     margin-left: 10px;
 }
 
 .content-wrapper {
@@ -60,7 +62,7 @@ font-size: 40px;
     color: white;
     text-decoration: none;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 38px;
 }
 
 
@@ -70,11 +72,11 @@ font-size: 40px;
     color: white;
     text-decoration: none;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 38px;
 }
 
 .personal {
-    padding-top: 29%;
+    padding-top: 28%;
     color: white;
    
 }
@@ -82,9 +84,7 @@ font-size: 40px;
 /* About Me Profile */
 
 .about {
-    max-width: 100%;
-    background-color: 
-     
+    max-width: 100%;    
 }
 
 .profile img {
@@ -95,8 +95,9 @@ font-size: 40px;
 }
 
 .profile h1 {
-    padding-top: 30px;
-    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+    margin-right: 40px;
   
 }
 
@@ -250,7 +251,22 @@ footer h1 {
 /******************** Responsive*********************************/
 @media (max-width: 1024px) {
     #index .profile img {
-        margin-left:340px;
+        margin-left:344px;
+    }
+    #index .portfolio {
+        width: 92%;
+    }
+    #index .social-list {
+        margin-right: 32px;
+    }
+    #index footer h1 {
+        margin-right: 10px;
+    }
+    #projects .portfolio {
+        width: 90%;
+    }
+    #info .portfolio {
+        width: 90%;
     }
 }
 
@@ -263,16 +279,46 @@ footer h1 {
 /*****************************************************/
 @media (max-width: 940px) {
     #index .profile img {
-        margin-left: 306px;
+        margin-left: 298px;
+    }
+    #index header {
+        width: 98%;
+        height: 523px;
+    }
+    #index header h1 {
+        font-size: 38px
+    }
+    #index header h2 {
+        font-size: 38px
     }
     #index .portfolio {
-        width: 92%;
+        width: 90%;
+    }
+    #index .social-list {
+        margin-right: 12px;
+    }
+    #projects header {
+        width: 98%;
+        height: 523px;
     }
     #projects .portfolio {
-        width: 92%;
+        width: 89%;
+    }
+    #projects .social-list {
+        margin-right: 12px;
+    }
+    #info header {
+        width: 98%;
+        height: 523px;
     }
     #info .portfolio {
-        width: 92%;
+        width: 90%;
+    }
+    #info .description a {
+         padding-top: 10px;
+    }
+    #info .social-list {
+        margin-right: 12px;
     }
 }
 
@@ -288,33 +334,56 @@ footer h1 {
         font-size: 30px;
 
     }
+    #index header {
+        width:98%;
+        height: 426px;
+    }
+    
     #index .profile img {
-        margin-left: 215px;
+        margin-left: 222px;
 
     }
     #index .profile p {
         width: 600px;
+        margin-left: 100px;
     }
     #index .portfolio {
-        width: 90%;
+        width: 87%;
     }
     #index footer h1 {
-        margin-left: 10px;
+        margin-right: 8px;
+    }
+    #index .social-list {
+        margin-right: 28px;
+    }
+    #projects header {
+        width:98%;
+        height: 426px;
     }
     #projects .personal a {
         font-size: 35px;
     }
     #projects .portfolio {
-        width: 90%;
+        width: 87%;
     }
     #projects footer h1 {
-        margin-left: 20px;
+        margin-left: 0px;
+    }
+    #projects .social-list {
+        margin-right: 0px;
+    }
+    #info header {   /* if you chose to you can take the width and height of the header for width 768*/
+        width:98%;
+        height: 426px;
     }
     #info footer h1 {
-        margin-left: 20px;
+        margin-left: 0px;
     }
     #info .portfolio  {
-        width: 90%;
+        width: 87%;
+    }
+    #info .social-list {
+        margin-right: 15px;
     }
 
 
@@ -323,8 +392,8 @@ footer h1 {
 /********************************************/
 @media (max-width: 480px) {
     #index header {
-        width: 107%;
-        height: 287px;
+        width: 96%;
+        height: 257px;
     }
     #index header h1 {
         font-size: 20px;
@@ -335,35 +404,48 @@ footer h1 {
         margin-left: 0px;
 
     }
+    #index .portfolio {
+        width: 79%;
+    }
     #index .profile h1 {
-        margin-left: 52px;
+        margin-left: 16px;
+        font-size: 34px;
     }
     #index .profile img {
-        margin-left: 104px;
+        margin-left: 80px;
     }
     #index .profile p {
         width: 400px;
-        margin-left: 90px;
+        margin-left: 55px;
+    }
+    #projects header {
+        width: 96%;
+        height: 258px;
     }
     #projects .personal a {
-        font-size: 23px;
-        margin-left: 8px;
+        font-size: 22px;
+        margin-left: 0px;
     }
     #projects .portfolio {
-        width: 83%;
+        width: 79%;
     }
     #projects footer h1 {
-        margin-left: 20px;
+        margin-left: 0px;
     }
     #projects .footer a {
         margin-left: 0px;
-        font-size: 30px;
+        font-size: 28px;
     }
     #projects .social-list {
-        margin-left: 0px;
+        margin-right: 13px;
     }
+    #info header {
+        width: 96%;
+        height: 258px;
+    }
+
     #info .description a {
-        font-size: 33px;
+        font-size: 30px;
         margin-left: 6px;
     }
     #info .content p {
@@ -371,13 +453,13 @@ footer h1 {
         line-height: 2.0; 
     }
     #info .portfolio {
-        width: 84%;
+        width: 79%;
     }
     #info footer h1 {
-        margin-left: 15px;
+        margin-left: 0px;
     }
     #info .footer a {
-        font-size: 30px;
+        font-size: 27px;
         margin-left: 0px;
     }
     #info .social-list {
@@ -394,81 +476,91 @@ footer h1 {
 /* ------------------------------------------*/
 @media (max-width: 414px) {
     #index header {
-        width: 114%;
-        height: 265px;
+        width: 95%;
+        height: 219px;
     }
     #index header h1 {
-        font-size: 20px;
+        font-size: 17px;
     }
     #index header h2 {
-        font-size: 20px;
+        font-size: 17px;
     }
     #index .profile h1 {
-        margin-left: 75px;
+        margin-left: 0px;
+        font-size: 34px;
     }
     #index .profile img {
-        margin-left: 80px;
+        margin-left: 62px;
+        width: 70%;
     }
     #index .profile p {
-        margin-left: 62px;
-        width: 400px;
+        width:312px;
+        margin-left: 58px; 
+        font-size: 12px; 
     }
     #index .portfolio {
-        width: 95%;
+        width: 76%;
     }
     #index footer h1 {
-        font-size: 38px;
-        margin-left: 80px;
+        font-size: 34px;
+        margin-left: 0px;
     }
     #index .footer a {
         margin-left: 6px;
-        font-size: 29px
+        font-size: 24px
     }
     #index .social-list {
-        margin-left: 55px;
+        margin-right: 29px;
     }
 
     #projects header {
-        width: 116%;
-        height: 269px;
+        width: 95%;
+        height: 219px;
     }
     #projects .personal a {
-        font-size: 21px;
+        font-size: 18px;
+        margin-left: 0px;
     }
     #projects .portfolio {
-        width: 97%;
+        width: 76%;
     }
-    #projects .footer h1 {
-        font-size: 36px;
-        margin-left: 100px;
+    #projects footer h1 {
+        font-size: 34px;
+        margin-right: 40px; 
     }
     #projects .footer a {
         margin-left: 2px;
+        font-size: 24px
     }
     #projects .social-list {
-        margin-left: 96px;
+        margin-right: 29px;
     }
     #info header {
-        width: 115%;
-        height: 266px;
+        width: 95%;
+        height: 218px;
     }
     #info .description a {
-        font-size: 28px;
+        font-size: 25px;
     }
     #info .content p {
-        width: 413px;
-        margin-left: 5px;
-        line-height: 2.0; 
+        width: 321px;
+        margin-left: 0px;
+        line-height: 2.1; 
+        font-size: 12px;
     }
     #info .portfolio {
-        width: 96%;
+        width: 76%;
     }
     #info footer h1 {
-        font-size: 38px;
-        margin-left: 100px;   50px;
+        font-size: 34px;
+        margin-right: 40px;  
+    }
+    #info .footer a {
+        margin-left: 0px;
+        font-size: 23px;
     }
     #info .social-list {
-        margin-left: 86px;
+        margin-right: 29px;
     }
 
     
@@ -478,192 +570,213 @@ footer h1 {
 /*------------------------------------------- */
 
 
-
 @media (max-width: 375px) {
     #index header {
-        width: 125%;  
-        height: 256px;
+        width: 96%;  
+        height: 197px;
     }
     #index header h1 {
-        font-size: 19px;
+        font-size: 15px;
+        margin-left: 0px;
     }
     #index header h2 {
-        font-size: 19px;
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    #index .content-wrapper {
+        padding-bottom: 0px;
     }
     #index .profile h1 {
-        margin-left: 110px;
+        margin-left: 0px;
+        font-size: 34px;
     }
     #index .profile img {
-        margin-left: 74px;
+        margin-left: 56px;
+        width: 70%;
     }
     #index .profile p {
-        width:410px;
-        margin-left: 53px;  
+        width:312px;
+        margin-left: 42px; 
+        font-size: 12px; 
     }
     #index .portfolio {
-        width: 104%;
+        width: 74%;
+    }
+    #index .portfolio a {
+        font-size: 36px;
     }
     #index footer h1 {
-        font-size: 36px;
-        margin-left: 99px;
+        font-size: 34px;
+        margin-left: 3px;
     }
     #index .footer a {
-        margin-left: 6px;
+        margin-left: 0px;
+        font-size: 22px;
     }
     #index .social-list {
-        margin-left: 85px;
+        margin-left: 3px;
     }
     #projects header {
-        width: 127%;  
-        height: 267px;
+        width: 95%;  
+        height: 198px;
     }
     #projects .personal a {
-        font-size: 21px;
+        font-size: 17px;
         margin-left: 0px;
     }
     #projects .portfolio {
-        width: 106%;
+        width: 74%;
     }
     #projects footer h1 {
-        font-size: 38px;
-        margin-left: 100px;
+        font-size: 34px;
+        margin-left: 18px;
     }
     #projects .footer a {
         margin-left: 0px;
+        font-size: 22px;
     }
     #projects .social-list {
-        margin-left: 93px;
+        margin-left: 3px;
     }
     #info header {
-        width: 127%;
-        height: 267px;
+        width: 96%;
+        height: 194px;
     }
    
     #info .description a {
-        font-size: 29px;
+        font-size: 24px;
     }
     #info .content p {
-        width:366px;
-        margin-left: 15px; 
-        line-height: 2.0; 
+        width:294px;
+        margin-left: 3px;
+        line-height: 2.1;
+        font-size: 12px; 
     }
     #info .portfolio {
-        width: 106%;
+        width: 74%;
     }
     #info footer h1 {
-        font-size: 38px;
-        margin-left: 95px;
+        font-size: 34px;
+        margin-left: 18px;
     }
     #info .footer a {
         margin-left: 0px;
+        font-size: 22px;
     }
     #info .social-list {
-        margin-left: 90px;
+        margin-left: 22px;
     }
 }
 
 
 /*--------------------------------------*/
 
-
 @media (max-width: 360px) {    
     #index header {
-        width: 301%;  
-        height: 616px;
+        width: 95%;  
+        height: 188px;
     }
 
     #index header h1 {
-        font-size: 37px;
-        margin-left: 10px;
+        font-size: 14px;
+        margin-left: 0px;
     }
     #index header h2 {
-        font-size: 39px;
-        margin-left: 10px;
+        font-size: 15px;
+        margin-left: 5px;
     }
      #index .profile h1 {
-       font-size: 40px;
-       margin-left: 478px;
+       font-size: 36px;
+       margin-left: 30px;
     }
     #index .profile img {
-        margin-left: 365px;
-        width: 100%;
+        margin-left: 55px;
+        width: 70%;
     }
     #index .profile p {
-        width:496px;
-        margin-left: 320px;  
+        width:316px;
+        margin-left: 26px;  
     }
-    #index .projects {
-        width: 268%;
+    
+
+    #index .portfolio {
+        width: 72%;
     }
     #index .portfolio a {
         margin-right: 35px;
+        font-size: 36px;
     }
     #index footer h1 {
-        font-size: 40px;
-        margin-left: 454px;
+        font-size: 36px;
+        margin-left: 0px;
     }
     #index .footer a {
-        font-size: 40px;
-        margin-left: 64%;
+        font-size: 21px;
+        margin-left: 0px;
         
     }
     #index .social-list {
-        margin-left: 144%;
+        margin-left: 0px;
     }
 
+
+
     #projects header {                        
-        width: 188%;  
-        height: 384px;
+        width: 95%;  
+        height: 190px;
     }
     #projects .personal a {                   
-        font-size: 32px;
+        font-size: 16px;
         margin-left: 3px;
     }
     
     #projects .portfolio  {            
-        width: 165%;  
+        width: 72%;  
     }
     #projects .footer h1 {
-        font-size: 40px;
-        margin-left: 260px;
+        font-size: 36px;
+        margin-left: 40px;
     }
     #projects .footer a {
-        font-size: 40px;
-        margin-left: 5%;
+        font-size: 21px;
+        margin-left: 0px;
     }
     #projects .social-list {
-        margin-left: 325px;
+        margin-left: 25px;
     }
 
 
     #info header {
-        width: 137%;
-        height: 277px;
+        width: 95%;
+        height: 189px;
+    }
+    #info .description {
+        padding-bottom: 0px;
     }
 
     #info .description a {                  
-        font-size: 31px;
+        font-size: 22px;
         margin-left: 0px;
     }
 
     #info .content p {
-        width:412px;
-        margin-left: 10px;
+        width:282px;
+        margin-left: 0px;
         line-height: 2.0; 
     }
     #info .portfolio {
-        width: 115%;
+        width: 72%;
     }
     #info .footer h1 {
-        font-size: 38px;
-        margin-left: 125px;
+        font-size: 36px;
+        margin-left: 32px;
     }
     #info .footer a {
-        font-size: 30px;
-        margin-left: 8px;
+        font-size: 21px;
+        margin-left: 0px;
     }
     #info .social-list {
-        margin-left: 110px;
+        margin-left: 20px;
     }
        
 }

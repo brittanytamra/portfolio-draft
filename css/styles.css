@@ -286,10 +286,11 @@ footer h1 {
         height: 523px;
     }
     #index header h1 {
-        font-size: 38px
+        font-size: 38px;
+        padding-top: 190px;
     }
     #index header h2 {
-        font-size: 38px
+        font-size: 38px;
     }
     #index .portfolio {
         width: 90%;
@@ -329,6 +330,7 @@ footer h1 {
 @media (max-width: 768px) {
     #index header h1 {
         font-size: 30px;
+        padding-top: 141px;
     }
     #index header h2{
         font-size: 30px;
@@ -398,6 +400,7 @@ footer h1 {
     #index header h1 {
         font-size: 20px;
         margin-left: 0px;
+        padding-top: 82px;
     }
     #index header h2 {
         font-size: 20px;
@@ -481,6 +484,7 @@ footer h1 {
     }
     #index header h1 {
         font-size: 17px;
+        padding-top: 68px;
     }
     #index header h2 {
         font-size: 17px;
@@ -578,6 +582,7 @@ footer h1 {
     #index header h1 {
         font-size: 15px;
         margin-left: 0px;
+        padding-top: 65px;
     }
     #index header h2 {
         font-size: 15px;
@@ -680,6 +685,7 @@ footer h1 {
     #index header h1 {
         font-size: 14px;
         margin-left: 0px;
+        padding-top: 64px;
     }
     #index header h2 {
         font-size: 15px;

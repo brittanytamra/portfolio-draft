@@ -336,9 +336,9 @@ footer h1 {
         width: 98%;
         height: 523px;
     }
-    #info .content p{
-        width: 
-    {
+    #info .content p {
+        font-size: 17px;
+    }
     #info .portfolio {
         width: 90%;
     }

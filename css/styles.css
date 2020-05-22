@@ -575,8 +575,8 @@ footer h1 {
         font-size: 25px;
     }
     #info .content p {
-        width: 287px;
-        margin-left: 0px;
+        width: 321px;
+        margin-left: 9px;
         line-height: 1.9; 
         font-size: 12px;
     }
@@ -624,12 +624,12 @@ footer h1 {
         font-size: 34px;
     }
     #index .profile img {
-        margin-left: 56px;
+        margin-left: 66px;
         width: 70%;
     }
     #index .profile p {
         width:312px;
-        margin-left: 42px; 
+        margin-left: 50px; 
         font-size: 12px; 
     }
     #index .portfolio {
@@ -639,7 +639,7 @@ footer h1 {
         font-size: 36px;
     }
     #index footer h1 {
-        font-size: 33px;
+        font-size: 30px;
         margin-left: 3px;
     }
     #index .footer a {
@@ -647,7 +647,7 @@ footer h1 {
         font-size: 20px;
     }
     #index .social-list {
-        margin-left: 3px;
+        margin-left: 25px;
     }
     #projects header {
         width: 95%;  
@@ -661,7 +661,7 @@ footer h1 {
         width: 74%;
     }
     #projects footer h1 {
-        font-size: 33px;
+        font-size: 30px;
         margin-left: 18px;
     }
     #projects .footer a {
@@ -669,7 +669,7 @@ footer h1 {
         font-size: 20px;
     }
     #projects .social-list {
-        margin-left: 3px;
+        margin-left: 25px;
     }
     #info header {
         width: 99%;
@@ -689,7 +689,7 @@ footer h1 {
         width: 77%;
     }
     #info footer h1 {
-        font-size: 33px;
+        font-size: 30px;
         margin-left: 18px;
     }
     #info .footer a {
@@ -697,7 +697,7 @@ footer h1 {
         font-size: 20px;
     }
     #info .social-list {
-        margin-left: 22px;
+        margin-left: 25px;
     }
 }
 
@@ -721,7 +721,7 @@ footer h1 {
         margin-left: 5px;
     }
      #index .profile h1 {
-       font-size: 36px;
+       font-size: 34px;
        margin-left: 30px;
     }
     #index .profile img {
@@ -742,8 +742,8 @@ footer h1 {
         font-size: 36px;
     }
     #index footer h1 {
-        font-size: 33px;
-        margin-left: 0px;
+        font-size: 29px;
+        margin-left: 25px;
     }
     #index .footer a {
         font-size: 19px;
@@ -751,7 +751,7 @@ footer h1 {
         
     }
     #index .social-list {
-        margin-left: 0px;
+        margin-left: 50px;
     }
 
 
@@ -769,21 +769,21 @@ footer h1 {
         width: 72%;  
     }
     #projects .footer h1 {
-        font-size: 33px;
-        margin-left: 40px;
+        font-size: 29px;
+        margin-left: 25px;
     }
     #projects .footer a {
         font-size: 19px;
         margin-left: 0px;
     }
     #projects .social-list {
-        margin-left: 25px;
+        margin-left: 50px;
     }
 
 
     #info header {
-         width: 96%;
-        height: 194px;
+         width:100%;
+        height: 199px;
     }
     #info .description {
         padding-bottom: 0px;
@@ -801,18 +801,18 @@ footer h1 {
         font-size: 12px;  
     }
     #info .portfolio {
-        width: 72%;
+        width: 77%;
     }
     #info .footer h1 {
-        font-size: 33px;
-        margin-left: 32px;
+        font-size: 29px;
+        margin-left: 25px;
     }
     #info .footer a {
         font-size: 19px;
         margin-left: 0px;
     }
     #info .social-list {
-        margin-left: 20px;
+        margin-left: 50px;
     }
        
 }

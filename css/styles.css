@@ -277,49 +277,24 @@ footer h1 {
 
 
 /*****************************************************/
-@media (max-width: 940px) {
+@media (max-width: 1024px) {
     #index .profile img {
-        margin-left: 298px;
-    }
-    #index header {
-        width: 98%;
-        height: 523px;
-    }
-    #index header h1 {
-        font-size: 38px;
-        padding-top: 190px;
-    }
-    #index header h2 {
-        font-size: 38px;
+        margin-left:344px;
     }
     #index .portfolio {
-        width: 90%;
+        width: 92%;
     }
     #index .social-list {
-        margin-right: 12px;
+        margin-right: 32px;
     }
-    #projects header {
-        width: 98%;
-        height: 523px;
+    #index footer h1 {
+        margin-right: 10px;
     }
     #projects .portfolio {
-        width: 89%;
-    }
-    #projects .social-list {
-        margin-right: 12px;
-    }
-    #info header {
-        width: 98%;
-        height: 523px;
+        width: 90%;
     }
     #info .portfolio {
         width: 90%;
-    }
-    #info .description a {
-         padding-top: 10px;
-    }
-    #info .social-list {
-        margin-right: 12px;
     }
 }
 
@@ -840,7 +815,7 @@ footer h1 {
     }
        
 }
-
+/***********************************************************************/
 
 
 

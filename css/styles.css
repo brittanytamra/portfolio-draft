@@ -782,8 +782,8 @@ footer h1 {
 
 
     #info header {
-        width: 95%;
-        height: 189px;
+         width: 96%;
+        height: 194px;
     }
     #info .description {
         padding-bottom: 0px;
@@ -795,9 +795,10 @@ footer h1 {
     }
 
     #info .content p {
-        width:292414px;
-        margin-left: 0px;
-        line-height: 2.0; 
+        width:294px;
+        margin-left: 3px;
+        line-height: 2.1;
+        font-size: 12px;  
     }
     #info .portfolio {
         width: 72%;

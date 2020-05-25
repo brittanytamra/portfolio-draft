@@ -495,10 +495,16 @@ footer h1 {
         font-size: 30px;
         margin-left: 6px;
     }
-    #info .content p {
-        width: 407px;
-        line-height: 2.0; 
+    
+    #info ol {
+        line-height: 1.7;
+        margin-left: 13%;
+        width: 64%;
     }
+    
+    
+    
+  
     #info .portfolio {
         width: 83%;
     }
@@ -590,12 +596,14 @@ footer h1 {
     #info .description a {
         font-size: 25px;
     }
-    #info .content p {
-        width: 321px;
-        margin-left: 9px;
-        line-height: 1.9; 
-        font-size: 12px;
+   
+     #info ol {
+        line-height: 1.7;
+        margin-left: 13%;
+        width: 64%;
     }
+    
+    
     #info .portfolio {
         width: 76%;
     }
@@ -695,11 +703,14 @@ footer h1 {
     #info .description a {
         font-size: 22px;
     }
-    #info .content p {
-        width:289px;
-        margin-left: 15px;
-        line-height: 1.9;
-        font-size: 12px; 
+    #info h3 {
+        margin-left: 20px;
+    }
+    
+    #info ol {
+        line-height: 1.7;
+        margin-left: 9%;
+        width: 70%;
     }
     #info .portfolio {
         width: 77%;
@@ -809,13 +820,13 @@ footer h1 {
         font-size: 22px;
         margin-left: 0px;
     }
-
-    #info .content p {
-        width:290px;
-        margin-left: 3px;
-        line-height: 2.1;
-        font-size: 12px;  
+    #info ol {
+       line-height: 1.7;
+        margin-left: 9%;
+        width: 70%;
     }
+
+  
     #info .portfolio {
         width: 77%;
     }

@@ -309,6 +309,9 @@ footer h1 {
     #info .portfolio {
         width: 90%;
     }
+     #info2 .portfolio {
+        width: 90%;
+    }
 }
 
 
@@ -359,6 +362,22 @@ footer h1 {
          padding-top: 10px;
     }
     #info .social-list {
+        margin-right: 12px;
+    }
+    
+    
+    #info2 header {
+        width: 98%;
+        height: 523px;
+    }
+  
+    #info2 .portfolio {
+        width: 90%;
+    }
+    #info2 .description a {
+         padding-top: 10px;
+    }
+    #info2 .social-list {
         margin-right: 12px;
     }
 }
@@ -426,6 +445,21 @@ footer h1 {
     }
     #info .social-list {
         margin-left: 0px;
+    }
+    
+    
+      #info2 header {  
+        width:98%;
+        height: 426px;
+    }
+    #info2 footer h1 {
+        margin-left: 0px;
+    }
+    #info2 .portfolio  {
+        width: 87%;
+    }
+    #info2 .social-list {
+        margin-left: 20px;
     }
 
 
@@ -503,8 +537,6 @@ footer h1 {
     }
     
     
-    
-  
     #info .portfolio {
         width: 83%;
     }
@@ -516,6 +548,36 @@ footer h1 {
         margin-left: 0px;
     }
     #info .social-list {
+        margin-left: 0px;
+    }
+    
+    
+     #info2 header {
+        width: 96%;
+        height: 258px;
+    }
+
+    #info2 .description a {
+        font-size: 30px;
+        margin-left: 6px;
+    }
+  
+    #info2 ol {
+        line-height: 1.7;
+        margin-left: 13%;
+        width: 64%;
+    }
+    #info2 .portfolio {
+        width: 79%;
+    }
+    #info2 footer h1 {
+        margin-left: 0px;
+    }
+    #info2 .footer a {
+        font-size: 27px;
+        margin-left: 0px;
+    }
+    #info2 .social-list {
         margin-left: 0px;
     }
 }
@@ -618,9 +680,44 @@ footer h1 {
     #info .social-list {
         margin-right: 29px;
     }
+    
+    
+
+
+    #info2 header {
+        width: 95%;
+        height: 218px;
+    }
+    #info2 .description a {
+        font-size: 25px;
+    }
+  
+
+    #info2 ol {
+        line-height: 1.7;
+        margin-left: 13%;
+        width: 64%;
+    }
+
+    #info2 .portfolio {
+        width: 76%;
+    }
+    #info2 footer h1 {
+        font-size: 34px;
+        margin-right: 18px;  
+    }
+    #info2 .footer a {
+        margin-left: 0px;
+        font-size: 22px;
+    }
+    #info2 .social-list {
+        margin-right: 29px;
+    }
+  
+}
 
     
-}
+
 
 
 /*------------------------------------------- */
@@ -726,7 +823,39 @@ footer h1 {
     #info .social-list {
         margin-left: 25px;
     }
+    
+    
+      #info2 .description a {
+        font-size: 24px;
+    }
+    
+  
+    #info2 h3 {
+        margin-left: 20px;
+    }
+
+    #info2 ol {
+        line-height: 1.7;
+        margin-left: 9%;
+        width: 70%;
+    } 
+    #info2 .portfolio {
+        width: 74%;
+    }
+    #info2 footer h1 {
+        font-size: 34px;
+        margin-left: 18px;
+    }
+    #info2 .footer a {
+        margin-left: 0px;
+        font-size: 20px;
+    }
+    #info2 .social-list {
+        margin-left: 22px;
+    }
+
 }
+
 
 
 /*--------------------------------------*/
@@ -841,6 +970,41 @@ footer h1 {
     #info .social-list {
         margin-left: 23px;
     }
+    
+     #info2 header {
+        width: 95%;
+        height: 189px;
+    }
+    #info2 .description {
+        padding-bottom: 0px;
+    }
+
+    #info2 .description a {                  
+        font-size: 22px;
+        margin-left: 0px;
+    }
+
+ 
+    #info2 ol {
+        line-height: 1.7;
+        margin-left: 9%;
+        width: 70%;
+    }
+    #info2 .portfolio {
+        width: 72%;
+    }
+    #info2 .footer h1 {
+        font-size: 3px;
+        margin-left: 32px;
+    }
+    #info2 .footer a {
+        font-size: 19px;
+        margin-left: 0px;
+    }
+    #info2 .social-list {
+        margin-left: 20px;
+    }
+}
        
 }
 /***********************************************************************/

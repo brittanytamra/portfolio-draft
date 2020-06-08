@@ -824,7 +824,7 @@ footer h1 {
     }
     #info .portfolio {
         width: 78%;
-        margin-left: -10px;
+        margin-left: 1px;
     }
     #info footer h1 {
         font-size: 30px;

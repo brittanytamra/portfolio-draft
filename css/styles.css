@@ -340,6 +340,9 @@ footer h1 {
     #index .portfolio {
         width: 91%;
     }
+    #index footer h1 {
+        margin-left: 15px;
+    }
     #index .social-list {
         margin-right: 10px;
     }
@@ -430,7 +433,7 @@ footer h1 {
         font-size: 35px;
     }
     #projects .portfolio {
-        width: 87%;
+        width: 88%;
     }
     #projects footer h1 {
         margin-left: 0px;
@@ -446,7 +449,7 @@ footer h1 {
         margin-left: 0px;
     }
     #info .portfolio  {
-        width: 87%;
+        width: 88%;
     }
     #info .social-list {
         margin-left: 0px;
@@ -461,7 +464,7 @@ footer h1 {
         margin-left: 0px;
     }
     #info2 .portfolio  {
-        width: 87%;
+        width: 88%;
     }
     #info2 .social-list {
         margin-left: 0px;
@@ -662,6 +665,7 @@ footer h1 {
     }
     #info .description a {
         font-size: 24px;
+        margin-right: 6px;
     }
    
      #info ol {
@@ -695,6 +699,7 @@ footer h1 {
     }
     #info2 .description a {
         font-size: 24px;
+        margin-left: 6px;
     }
   
 
@@ -763,6 +768,7 @@ footer h1 {
     }
     #index .portfolio a {
         font-size: 36px;
+        margin-right: 23px;
     }
     #index footer h1 {
         font-size: 30px;
@@ -831,11 +837,15 @@ footer h1 {
     #info .social-list {
         margin-left: 25px;
     }
+    #info2 header {
+        width: 98%;
+        height: 201px;
+    }
     
     
       #info2 .description a {
         font-size: 23px;
-          margin-left: 30px;
+          margin-left: 0px;
     }
     
   
@@ -891,7 +901,7 @@ footer h1 {
        margin-left: 30px;
     }
     #index .profile img {
-        margin-left: 55px;
+        margin-left: 61px;
         width: 70%;
     }
     #index .profile p {
@@ -902,10 +912,10 @@ footer h1 {
 
     #index .portfolio {
        width: 77%;
-       margin-left: -15px;
+       margin-left: 2px;
     }
     #index .portfolio a {
-        margin-right: 35px;
+        margin-right: 12px;
         font-size: 36px;
     }
     #index footer h1 {
@@ -970,7 +980,7 @@ footer h1 {
   
     #info .portfolio {
         width: 77%;
-        margin-left: -15px;
+        margin-left: 1px;
     }
     #info .footer h1 {
         font-size: 29px;

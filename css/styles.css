@@ -363,7 +363,7 @@ footer h1 {
         width: 90%;
     }
     
-    #index {
+    #index .divider {
     border-top: 2px solid black; 
     }
 }

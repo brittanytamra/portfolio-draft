@@ -186,6 +186,13 @@ padding-bottom: 50px;
 
 
 
+.divider {
+    border-top: 2px solid black;     
+}
+
+
+
+
 .portfolio__item {
     /*background: var(--clr-accent);  can change color*/ 
     overflow: hidden;

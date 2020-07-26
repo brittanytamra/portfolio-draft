@@ -312,7 +312,7 @@ footer h1 {
 
 
 /******************** Responsive*********************************/
-@media (max-width: 1024px) {
+/*@media (max-width: 1024px) {
     #index .profile img {
         margin-left:344px;
     }
@@ -336,7 +336,7 @@ footer h1 {
         border-top: 2px solid black; 
         width: 103%;
     }
-}
+}*/
 
 
 
@@ -370,6 +370,7 @@ footer h1 {
     
     #index .divider {
     border-top: 2px solid black; 
+        width: 103%;
     }
 }
 

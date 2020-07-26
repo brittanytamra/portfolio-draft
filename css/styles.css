@@ -453,6 +453,11 @@ footer h1 {
         border-top: 2px solid black; 
         width: 100%;
     }
+    
+     #index .divider {
+    border-top: 2px solid black; 
+        width: 103%;
+    }
 }
 
 

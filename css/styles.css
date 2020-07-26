@@ -362,6 +362,10 @@ footer h1 {
      #info2 .portfolio {
         width: 90%;
     }
+    
+    #index {
+    border-top: 2px solid black; 
+    }
 }
 
 

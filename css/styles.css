@@ -539,6 +539,11 @@ footer h1 {
     #info2 .social-list {
         margin-left: 0px;
     }
+    
+    #index .divider {
+    border-top: 2px solid black; 
+        width: 101%;
+    }
 
 
 }
@@ -657,6 +662,11 @@ footer h1 {
     }
     #info2 .social-list {
         margin-left: 0px;
+    }
+    
+    #index .divider {
+    border-top: 2px solid black; 
+        width: 101%;
     }
 }
 
@@ -792,6 +802,11 @@ footer h1 {
     }
     #info2 .social-list {
         margin-right: 29px;
+    }
+    
+    #index .divider {
+    border-top: 2px solid black; 
+        width: 101%;
     }
   
 }
@@ -942,6 +957,11 @@ footer h1 {
     }
     #info2 .social-list {
         margin-left: 22px;
+    }
+    
+    #index .divider {
+    border-top: 2px solid black; 
+        width: 101%;
     }
 
 }
@@ -1097,6 +1117,11 @@ footer h1 {
     }
     #info2 .social-list {
         margin-left: 20px;
+    }
+    
+    #index .divider {
+    border-top: 2px solid black; 
+        width: 101%;
     }
 }
        

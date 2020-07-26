@@ -29,7 +29,7 @@ text-align: center;
 /****************************************/
 
 .tab {
-    margin-top: 20px;
+    padding-top: 23px;
 }
 .button {            
     /*text-align: right;  
@@ -375,6 +375,10 @@ footer h1 {
     #index .divider {
     border-top: 2px solid black; 
         width: 103%;
+    }
+    
+    #index .tab {
+        padding-top: 10px;
     }
 }
 

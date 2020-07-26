@@ -447,6 +447,11 @@ footer h1 {
     #info2 .social-list {
         margin-right: 12px;
     }
+    
+     #index .divider {
+        border-top: 2px solid black; 
+        width: 100%;
+    }
 }
 
 

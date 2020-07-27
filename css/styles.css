@@ -393,8 +393,8 @@ footer h1 {
         margin-left: 298px;
     }
     #index header {
-        width: 99%;
-        height: 523px;
+        width: 102%;
+        height: 553px;
     }
     #index header h1 {
         font-size: 34px;
@@ -485,8 +485,8 @@ footer h1 {
 
     }
     #index header {
-        width:98%;
-        height: 426px;
+        width:101%;
+        height: 448px;
     }
     
    
@@ -569,7 +569,7 @@ footer h1 {
 @media (max-width: 480px) {
     #index header {
         width: 101%;
-        height: 277px;
+        height: 280px;
     }
     #index header h1 {
         font-size: 18px;
@@ -712,7 +712,7 @@ footer h1 {
     }
     #index header h1 {
         font-size: 17px;
-        padding-top: 50px;
+        padding-top: 39px;
     }
     #index header h2 {
         font-size: 17px;
@@ -859,7 +859,7 @@ footer h1 {
     #index header h1 {
         font-size: 15px;
         margin-left: 0px;
-        padding-top: 41px;
+        padding-top: 33px;
     }
     #index header h2 {
         font-size: 15px;

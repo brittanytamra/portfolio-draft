@@ -489,11 +489,7 @@ footer h1 {
         height: 426px;
     }
     
-    
-     #index .button {
-       width: 19%;
-       margin-left: 76%;
-    }
+   
     
     #index .profile img {
         margin-left: 222px;
@@ -572,7 +568,7 @@ footer h1 {
 /********************************************/
 @media (max-width: 480px) {
     #index header {
-        width: 100%;
+        width: 101%;
         height: 277px;
     }
     #index header h1 {
@@ -693,6 +689,11 @@ footer h1 {
     #index .tab {
         padding-top: 22px;
     }
+    
+     #index .button {
+       width: 19%;
+       margin-left: 74%;
+    }
         
     
 }
@@ -706,12 +707,12 @@ footer h1 {
 /* ------------------------------------------*/
 @media (max-width: 414px) {
     #index header {
-        width: 95%;
-        height: 219px;
+        width: 100%;
+        height: 239px;
     }
     #index header h1 {
         font-size: 17px;
-        padding-top: 68px;
+        padding-top: 50px;
     }
     #index header h2 {
         font-size: 17px;
@@ -835,6 +836,11 @@ footer h1 {
     border-top: 2px solid black; 
         width: 100%;
     }
+    
+    #index .button {
+        width: 21%;
+        margin-left: 74%;
+    }
   
 }
 
@@ -847,13 +853,13 @@ footer h1 {
 
 @media (max-width: 375px) {
     #index header {
-        width: 96%;  
-        height: 197px;
+        width: 103%;  
+        height: 223px;
     }
     #index header h1 {
         font-size: 15px;
         margin-left: 0px;
-        padding-top: 65px;
+        padding-top: 41px;
     }
     #index header h2 {
         font-size: 15px;
@@ -990,6 +996,11 @@ footer h1 {
     border-top: 2px solid black; 
         width: 103%;
     }
+    
+    #index .button {
+        width: 23%;
+        margin-left: 70%;
+    }
 
 }
 
@@ -1000,14 +1011,14 @@ footer h1 {
 
 @media (max-width: 360px) {    
     #index header {
-        width: 100%;  
-        height: 200px;
+        width: 108%;  
+        height: 224px;
     }
 
     #index header h1 {
         font-size: 14px;
         margin-left: 0px;
-        padding-top: 64px;
+        padding-top: 43px;
     }
     #index header h2 {
         font-size: 15px;
@@ -1150,6 +1161,11 @@ footer h1 {
     border-top: 2px solid black; 
         width: 108%;
     }
+    
+    #index .button {
+        width: 19%;
+        margin-left: 77%;
+        {
 }
        
 /***********************************************************************/

@@ -378,8 +378,11 @@ footer h1 {
     }
     
     #index .tab {
-        padding-top: 10px;
+        padding-top: 35px;
     }
+    
+    #index header h1 {
+        padding-top: 18%;
 }
 
 
@@ -394,11 +397,11 @@ footer h1 {
         height: 523px;
     }
     #index header h1 {
-        font-size: 37px;
-        padding-top: 190px;
+        font-size: 34px;
+        padding-top: 151px;
     }
     #index header h2 {
-        font-size: 38px;
+        font-size: 34px;
     }
     
     #index .profile h1 {
@@ -474,11 +477,11 @@ footer h1 {
 
 @media (max-width: 768px) {
     #index header h1 {
-        font-size: 30px;
-        padding-top: 141px;
+        font-size: 28px;
+        padding-top: 118px;
     }
     #index header h2{
-        font-size: 30px;
+        font-size: 28px;
 
     }
     #index header {
@@ -552,6 +555,10 @@ footer h1 {
     border-top: 2px solid black; 
         width: 101%;
     }
+    
+    #index .button {
+        width: 12%;
+    }
 
 
 }
@@ -563,12 +570,12 @@ footer h1 {
         height: 257px;
     }
     #index header h1 {
-        font-size: 20px;
+        font-size: 18px;
         margin-left: 0px;
-        padding-top: 82px;
+        padding-top: 62px;
     }
     #index header h2 {
-        font-size: 20px;
+        font-size: 18px;
         margin-left: 0px;
 
     }

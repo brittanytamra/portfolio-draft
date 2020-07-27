@@ -418,18 +418,18 @@ footer h1 {
         margin-right: 10px;
     }
     #projects header {
-        width: 98%;
-        height: 523px;
+        width: 100%;
+        height: 543px;
     }
     #projects .portfolio {
-        width: 89%;
+        width: 90%;
     }
     #projects .social-list {
         margin-right: 12px;
     }
     #info header {
-        width: 98%;
-        height: 523px;
+        width: 101%;
+        height: 548px;
     }
     #info .content p {
         font-size: 17px;
@@ -446,8 +446,8 @@ footer h1 {
     
     
     #info2 header {
-        width: 98%;
-        height: 523px;
+        width: 101%;
+        height: 548px;
     }
   
     #info2 .portfolio {
@@ -458,6 +458,12 @@ footer h1 {
     }
     #info2 .social-list {
         margin-right: 12px;
+    }
+    #info2 ol {
+    margin-left: 29%;
+    width: 45%;
+    padding-top: 30px;
+    padding-bottom: 50px;
     }
     
      #index .divider {
@@ -509,8 +515,8 @@ footer h1 {
         margin-left: 0px;
     }
     #projects header {
-        width:98%;
-        height: 426px;
+        width:101%;
+        height: 444px;
     }
     #projects .personal a {
         font-size: 35px;
@@ -525,8 +531,8 @@ footer h1 {
         margin-left: 0px;
     }
     #info header {   /* if you chose to you can take the width and height of the header for width 768*/
-        width:98%;
-        height: 426px;
+        width:101%;
+        height: 444px;
     }
     #info footer h1 {
         margin-left: 0px;
@@ -540,8 +546,8 @@ footer h1 {
     
     
       #info2 header {  
-        width:98%;
-        height: 426px;
+        width:101%;
+        height: 448px;
     }
     #info2 footer h1 {
         margin-left: 0px;
@@ -574,7 +580,7 @@ footer h1 {
     #index header h1 {
         font-size: 18px;
         margin-left: 0px;
-        padding-top: 45px;
+        padding-top: 54px;
     }
     #index header h2 {
         font-size: 18px;
@@ -600,8 +606,8 @@ footer h1 {
         margin-left: 55px;
     }
     #projects header {
-        width: 96%;
-        height: 258px;
+        width: 100%;
+        height: 277px;
     }
     #projects .personal a {
         font-size: 22px;
@@ -621,8 +627,8 @@ footer h1 {
         margin-right: 20px;
     }
     #info header {
-        width: 100%;
-        height: 266px;
+        width: 104%;
+        height: 288px;
     }
 
     #info .description a {
@@ -653,12 +659,12 @@ footer h1 {
     
     
      #info2 header {
-        width: 96%;
-        height: 258px;
+        width: 100%;
+        height: 277px;
     }
 
     #info2 .description a {
-        font-size: 30px;
+        font-size: 26px;
         margin-left: 6px;
     }
   
@@ -746,8 +752,8 @@ footer h1 {
     }
 
     #projects header {
-        width: 95%;
-        height: 219px;
+        width: 101%;
+        height: 241px;
     }
     #projects .personal a {
         font-size: 18px;
@@ -768,8 +774,8 @@ footer h1 {
         margin-right: 27px;
     }
     #info header {
-        width: 95%;
-        height: 218px;
+        width: 101%;
+        height: 241px;
     }
     #info .description a {
         font-size: 24px;
@@ -802,11 +808,11 @@ footer h1 {
 
 
     #info2 header {
-        width: 95%;
-        height: 218px;
+        width: 101%;
+        height: 241px;
     }
     #info2 .description a {
-        font-size: 24px;
+        font-size: 23px;
         margin-left: 6px;
     }
   
@@ -900,8 +906,8 @@ footer h1 {
         margin-left: 8px;
     }
     #projects header {
-        width: 96%;  
-        height: 198px;
+        width: 102%;  
+        height: 221px;
     }
     #projects .personal a {
         font-size: 17px;
@@ -923,8 +929,8 @@ footer h1 {
         margin-left: 25px;
     }
     #info header {
-        width: 99%;
-        height: 194px;
+        width: 105%;
+        height: 227px;
     }
    
     #info .description a {
@@ -956,13 +962,13 @@ footer h1 {
         margin-left: 25px;
     }
     #info2 header {
-        width: 98%;
-        height: 201px;
+        width: 102%;
+        height: 221px;
     }
     
     
       #info2 .description a {
-        font-size: 23px;
+        font-size: 22px;
           margin-left: 0px;
     }
     
@@ -1062,8 +1068,8 @@ footer h1 {
 
 
     #projects header {                        
-        width: 95%;  
-        height: 190px;
+        width: 100%;  
+        height: 208px;
     }
     #projects .personal a {                   
         font-size: 16px;
@@ -1088,8 +1094,8 @@ footer h1 {
 
 
     #info header {
-         width:100%;
-        height: 199px;
+         width:105%;
+        height: 218px;
     }
     #info .description {
         padding-bottom: 0px;
@@ -1123,15 +1129,15 @@ footer h1 {
     }
     
      #info2 header {
-        width: 95%;
-        height: 189px;
+        width: 101%;
+        height: 210px;
     }
     #info2 .description {
         padding-bottom: 0px;
     }
 
     #info2 .description a {                  
-        font-size: 22px;
+        font-size: 21px;
         margin-left: 0px;
     }
 
